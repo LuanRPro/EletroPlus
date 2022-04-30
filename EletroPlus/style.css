@@ -1,6 +1,9 @@
 p{
     font-family: Arial, Helvetica, sans-serif;
 }
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
 h2{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -12,24 +15,20 @@ h4{
     color:red;
     font-weight: bold;
 }
-#topo{
+#menu{
     background-color: red;
     width: 100%;
 }
-#topo td{
-    width: 25%;
+#menu nav{
     align-content: center;
 }
-#topo a{
+#menu a{
     font-family: Arial, Helvetica, sans-serif;
     color:white;
+    text-decoration:none;
 }
-#formas-pagamento{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-#formas-pagamento p{
+
+#rodape{
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    size: 2px;
 }
